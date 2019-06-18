@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <input onChange={e => this.handleChangeInput(e.target.value)} />
+        <input onChange={e => this.handleChangeInput(e.target.value)} type='text' />
         <p>{this.state.input}</p>
       </div>
     );
